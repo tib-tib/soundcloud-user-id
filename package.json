@@ -1,0 +1,22 @@
+{
+  "name": "soundcloud-user-id",
+  "version": "1.0.0",
+  "description": "Script to retrieve the soundcloud user id of an artist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tib-tib/soundcloud-user-id.git"
+  },
+  "author": "Thibaut Gatouillat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tib-tib/soundcloud-user-id/issues"
+  },
+  "homepage": "https://github.com/tib-tib/soundcloud-user-id#readme",
+  "dependencies": {
+    "request": "2.81.0"
+  }
+}
