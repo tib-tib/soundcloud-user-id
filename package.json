@@ -1,6 +1,6 @@
 {
   "name": "soundcloud-user-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Script to retrieve the soundcloud user id of an artist",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tib-tib/soundcloud-user-id#readme",
   "dependencies": {
-    "request": "2.81.0"
+    "request": "2.81.0",
+    "request-promise": "4.2.1"
   }
 }
