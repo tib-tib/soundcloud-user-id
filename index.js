@@ -20,6 +20,9 @@ const getSoundcloudUserId = (soundcloudUsername) => {
     const result = regExp.exec(body)
     return result.length > 0 && result[1]
   })
+  .catch(error => {
+    throw new Error('SOUNDCLOUD_USER_ID_NOT_FOUND')
+  })
 }
 
 module.exports = {getSoundcloudUserId}
